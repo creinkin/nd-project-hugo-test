@@ -2,7 +2,8 @@
 common-css:
   - "/assets/css/bootstrap.min.css"
   - "/assets/css/bootstrap-social.css"
-  - "/assets/css/main.css"
+  - "/assets/css/template.css"
+  - "/assets/css/inline.css"
 common-ext-css:
   - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
 common-googlefonts:
@@ -11,7 +12,6 @@ common-googlefonts:
 common-js:
   - "/assets/js/jquery-1.11.2.min.js"
   - "/assets/js/bootstrap.min.js"
-  - "/assets/js/main.js"
 ---
 
 <!DOCTYPE html>
@@ -20,12 +20,12 @@ common-js:
 
   {% include head.html %}
 
-  <body>
-    {% include gtm_body.html %}
-    {% include nav.html %}
+  <body class="site com_content view-article no-layout no-task itemid-101">
+    <div class="body">
+      <div class="container">
     {{ content }}
-    {% include footer.html %}
-    {% include footer-scripts.html %}
-  
+  </div>
+    </div>
+  {% include footer.html %}
   </body>
 </html>
