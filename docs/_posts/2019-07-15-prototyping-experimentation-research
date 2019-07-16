@@ -1,3 +1,9 @@
+---
+category: research
+date: '2018-02-15 22:24:03'
+layout: post
+---
+
 ## Prototyping and Experimentation - Research
 
 The goal of this activity is to gain a better understanding of the fundamental problems of data preservation, explore the space of the solutions, and to implement prototypes to evaluate the quality of the ideas. While this project uses HEP as a lens through which to focus the effort, the technical solutions will be derived using the input from the cross-disciplinary workshops in an attempt to make them as general as possible. Designing the ultimate data preservation infrastructure is not the final goal. Rather, we will create the intellectual infrastructure for preservation and then verify the framework through the use of prototypes. We will consider it a success if our conceptual models and software prototypes are taken up by the community as a starting point for more ambitious system-building projects.
